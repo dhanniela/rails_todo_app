@@ -98,3 +98,8 @@ form input[type="submit"]:hover {
 .status{
     color: green;
 }
+
+.task-done {
+    text-decoration: line-through;
+  }
+  

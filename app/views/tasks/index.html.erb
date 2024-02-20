@@ -5,7 +5,7 @@
 
     <ul>
         <% @tasks.each do |task| %>
-            <li>
+            <li class="<%= 'task-done' if task.done %>">
                 <%= link_to task.title, task %>
             </li>
         <% end %>
