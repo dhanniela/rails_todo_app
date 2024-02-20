@@ -1,6 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f9f9f9;
+    background-color:white;
     margin: 0;
     padding: 20px;
     color: #333;
@@ -93,4 +93,8 @@ form input[type="submit"]:hover {
 .error-message {
     color: #dc3545;
     margin-top: 5px;
+}
+
+.status{
+    color: green;
 }
